@@ -1,0 +1,92 @@
+.container-fluid {
+    margin: 0 auto;
+    display: block;
+}
+
+.icon-bar {
+  width: 35%; 
+  background-color: #555;
+  overflow: auto; /* Overflow due to float */
+  display: right;
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.btn {
+   
+    border: none;
+    color: rgb(14, 11, 11);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+   
+  }
+
+div.row{
+    float: left;
+}
+
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  display: table;
+}
+
+.navli {
+
+display:inline-block;
+font-size:230%;
+text-decoration:none;
+text-align:center;
+}
+
+.navli a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navli a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.navli a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+
+h1{
+    text-align: center;
+    size: 10px;
+  border: 3px solid black;
+  margin: 0; 
+}
+
+div.gallery {
+  float: left;
+  width: 350px;
+}
+
+
+div.desc {
+ margin: 15px;
+ text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+}
+body {
+    background-color:  rgb(131, 185, 131);
+  }
